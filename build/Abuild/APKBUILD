@@ -2,7 +2,7 @@
 # QNX Maintainer: Felix Xing <fxing@qnx.com>
 pkgname=garcon
 pkgver=4.21.0
-pkgrel=${pkgrel:-0}
+pkgrel=2
 pkgdesc="a freedesktop.org compliant menu implementation based on GLib and GIO"
 url="https://xfce.org/"
 arch="all"
@@ -40,7 +40,6 @@ package() {
 }
 
 
-options="$options ${DISABLE_CHECK:+!check}"
 sha512sums="
 a256c38cfb6bf8996550a9c938cd7ab5f7d2d1432dd6fc1c0a4ace7d56c86cc6d95c53e5da5584d0e469f7721a18d5ddadd4475f747ac2562af7c319485354b2  garcon-4.21.0.tar.xz
 "
